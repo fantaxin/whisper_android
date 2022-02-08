@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:padding="10dp"
+    android:background="@color/wechat_top_grey">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userName"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Whisper"
+        android:textColor="@color/logo_black"
+        android:textSize="10sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:layout_above="@id/userName"
+        android:text="Hellow World!"
+        android:layout_centerInParent="true"
+        android:textColor="@color/logo_black"
+        android:textSize="10sp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!--在这里主题已禁用掉actionbar，并替换成了toolbar，故其他地方不需要再写隐藏actionbar-->
+
+</resources>

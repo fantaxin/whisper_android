@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+
+    >
+
+
+    <!--接收消息-->
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/left_chat_head_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/image_4"
+            />
+
+        <TextView
+            android:id="@+id/sender_name"
+            android:layout_width="40dp"
+            android:layout_height="17dp"
+            android:text="test1"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="3dp"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/left_chat_head_icon"
+            android:id="@+id/left_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/msg_left"
+            android:gravity="center"
+            android:padding="17dp"
+            android:textColor="@color/wechat_top_grey"
+            android:text="接收消息测试" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/right_layout"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/right_chat_head_icon"
+            android:id="@+id/right_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/msg_right"
+            android:gravity="center"
+            android:padding="17dp"
+            android:textColor="#000000"
+            android:text="发送消息测试"/>
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@+id/right_chat_head_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/image_9"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

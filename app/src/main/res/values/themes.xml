@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!--在这里主题已禁用掉actionbar，并替换成了toolbar，故其他地方不需要再写隐藏actionbar-->
+    <style name="Theme.FlexibleNetworks" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/common_bottom_bar_normal_bg</item>
+        <item name="colorPrimaryDark">@color/black</item>
+
+        <item name="colorPrimaryVariant">@color/logo_black</item>
+
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+</resources>

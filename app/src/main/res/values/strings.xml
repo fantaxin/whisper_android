@@ -1,0 +1,17 @@
+<resources>
+    <string name="logo_name">计算机小分队DEMO</string>
+    <string name="login">login</string>
+    <string name="user_name">user_name</string>
+    <string name="password">password</string>
+    <string name="register">注册</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="button_push_to_talk">Hold to talk</string>
+    <string name="button_send">send</string>
+    <string name="move_up_to_cancel">slide up cancel sending</string>
+    <string name="session">消息</string>
+    <string name="app_name">侧耳</string>
+
+    <string-array name="welcome">
+        <item>亲爱的，想死我了，么么哒</item>
+    </string-array>
+</resources>
